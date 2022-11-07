@@ -5,7 +5,7 @@ public class ConexaoBD {
     private static String port = "3306";
     private static String db = "2022_2_m_alunos_cursos";
     private static String user = "root";
-    private static String pass = "123456";
+    private static String pass = null;
     
     public static Connection obtemConexao () {
         try {
